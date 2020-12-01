@@ -43,7 +43,7 @@ def jwtSigner(jwt_token, host, port):
 
 parser = argparse.ArgumentParser(description="Change token algorith from rs256 to hs256 and sign with target public key")
 parser.add_argument('--token', dest='token', help="with no .sign")
-parser.add_argument('--host', dest='host', help="example prevenity.com")
+parser.add_argument('--host', dest='host', help="example google.com")
 parser.add_argument('--port', dest='port', help="")
 args = parser.parse_args()
 token = args.token
