@@ -1,5 +1,5 @@
 - [JWT_Resign](#JWT-Resign)
-- [File Generator)(#File-Generator)
+- [File Generator](#File-Generator)
 
 ### JWT Resign
 ```
