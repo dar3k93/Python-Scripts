@@ -1,3 +1,7 @@
+- [JWT_Resign](JWT-Resign)
+
+# JWT Resign
+```
 import ssl
 from cryptography.x509 import load_pem_x509_certificate
 from cryptography.hazmat.backends import default_backend
@@ -51,3 +55,4 @@ host = args.host
 port = args.port
 
 jwtSigner(token, host, port)
+```
