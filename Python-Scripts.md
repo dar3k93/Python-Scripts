@@ -2,6 +2,7 @@
 - [File Generator](#File-Generator)
 
 ### JWT Resign
+Change token algorith from rs256 to hs256 and sign with target public key
 ```
 import ssl
 from cryptography.x509 import load_pem_x509_certificate
@@ -60,6 +61,7 @@ jwtSigner(token, host, port)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### File Generator
+Script to generate files with various extensions and files containing magic bytes.
 ```
 #/usr/bin/env python3
 import argparse
