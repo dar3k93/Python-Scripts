@@ -1,4 +1,4 @@
-- [JWT_Resign](JWT-Resign)
+- [JWT_Resign](#JWT-Resign)
 
 # JWT Resign
 ```
